@@ -67,7 +67,7 @@ def ddpg(env, brain_name, agent, num_agents, n_episodes=1000, print_every=1):
 
 
 def main():
-    env = UnityEnvironment(file_name='Tennis_Linux_NoVis/Tennis.x86_64')
+    env = UnityEnvironment(file_name='tennis/Tennis.x86_64')
 
     brain_name = env.brain_names[0]
     brain = env.brains[brain_name]
