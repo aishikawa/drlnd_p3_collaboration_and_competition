@@ -1,5 +1,11 @@
 ## Learning Algorithm
-I used [DDPG](https://arxiv.org/abs/1509.02971) algorithm.
+I used [Deep Deterministic Policy Gradient (DDPG)](https://arxiv.org/abs/1509.02971). 
+
+DDPG features
+- DDPG is actor-critic algorithm
+- DDPG uses replay buffer
+- DDPG uses target network
+- DDPG softly updates a target network
 
 ### Model architecture
 #### Actor model
